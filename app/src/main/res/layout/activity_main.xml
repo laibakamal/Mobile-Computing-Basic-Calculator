@@ -52,16 +52,17 @@
         android:layout_width="64dp"
         android:layout_height="51dp"
         app:icon="@drawable/ic_baseline_minimize_24"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="246dp" />
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="390dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="/"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="487dp" />
 
     <Button
         android:id="@+id/button5"
