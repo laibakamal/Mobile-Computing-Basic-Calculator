@@ -1,1 +1,1 @@
-"# Mobile-Computing-Basic-Calculator" 
+This repository contains android studio project: basic calculator (mobile app). 
