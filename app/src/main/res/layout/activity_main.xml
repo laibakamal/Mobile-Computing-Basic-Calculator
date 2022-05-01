@@ -51,23 +51,32 @@
         android:id="@+id/button3"
         android:layout_width="64dp"
         android:layout_height="51dp"
-        app:icon="@drawable/ic_baseline_minimize_24"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:iconTint="#FFFFFF"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="390dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="/"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteY="427dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="64dp"
+        android:layout_height="51dp"
         android:text="="
-        tools:layout_editor_absoluteY="816dp" />
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="64dp"
+        android:layout_height="51dp"
+        android:text="/"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="434dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
